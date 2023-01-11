@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    max-width: 480px;
+    margin: auto;
+    background-color: #596869;
+}
+
+#main-container{
+    max-width: 100%;
+    margin: auto;
+
+}
+
+#navbar{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-self: center;
+    margin: auto;
+    background-color: #36453B;
+    border: 0px;
+    border-radius: 25px;
+}
+
+#navbar a{
+    text-decoration: none;
+    background-color: #596869;
+    border: 2px solid #86CB92;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+#navbar a:hover{
+    background-color: #86CB92;
+}
+
+#content-home{
+    display: flex;
+    max-width: 100%;
+}
+
+#header-home{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#home-content{
+    width: 100%;
+    background-color: #86CB92;
+
+}
+
+#login-form{
+    margin: auto;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+}
